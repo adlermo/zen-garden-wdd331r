@@ -1,0 +1,36 @@
+#styles {
+  position: relative;
+  top: -270px;
+  margin: 25px 10px;
+  padding: 25px 20px 50px 20px;
+  border: 2px solid var(--color-primary);
+
+  .container {
+    .features {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 500px;
+      margin: -80px auto auto 700px;
+
+      li {
+        border: 1px solid var(--color-primary);
+        padding: 20px;
+        margin: 10px;
+
+        span {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+
+    .link-allstyles {
+      position: relative;
+      bottom: -75px;
+      max-width: 200px;
+      margin: auto;
+    }
+  }
+}

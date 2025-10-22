@@ -3,7 +3,15 @@ body {
   background-color: var(--color-background);
   color: var(--color-text);
   font-family: var(--paragraph-font-family);
+  display: flex;
+  flex-flow: column;
 }
+
+nav {
+    order: -1;
+    display: flex;
+
+  }
 
 main {
   margin: 10px;
@@ -23,3 +31,4 @@ main {
   display: flex;
   flex-direction: column;
 }
+

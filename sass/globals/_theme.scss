@@ -43,6 +43,7 @@ $font-size-h2: 3rem !default;
 $font-size-h3: 2rem !default;
 $font-size-h4: 1.35rem !default;
 $font-size-text: 1.15rem !default;
+$font-size-small-text: 5px;
 
 $font-sizes: (
   h1: $font-size-h1,
@@ -50,6 +51,7 @@ $font-sizes: (
   h3: $font-size-h3,
   h4: $font-size-h4,
   text: $font-size-text,
+  small-text: $font-size-small-text
 );
 
 // stylelint-disable
